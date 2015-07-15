@@ -40,7 +40,7 @@ Launches an Android intent. For example:
         action: window.plugins.webintent.ACTION_VIEW,
         url: 'geo:0,0?q=' + address},
         function() {},
-        function() {alert('Failed to open URL via Android Intent')};
+        function() {alert('Failed to open URL via Android Intent')}
     );
 
 
